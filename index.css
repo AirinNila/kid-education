@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/* for nav */
+
 .nav{
     width: 100%;
     height: 102px;
@@ -27,27 +29,76 @@
     display: flex;
 }
 
-#ba{
+#home{
     color: orange;
 }
-#bb{
+#about{
     margin-left: 15px;
     color: skyblue;
 }
 
-#bc{
+#facillities{
     margin-left: 15px;
     color: #05D4DF;
 }
-#bd{
+#add{
     color: #5D58EF;
     margin-left: 15px;
 }
 
-button{
+.c-button{
     width: 166px;
     height: 30px;
     background-color: orange;
     border-radius: 8px;
     border: none;
+}
+
+/* for sub content */
+
+.s-container {
+    display: flex;
+    padding-left: 140px;
+    padding-right: 140px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s-content1 {
+    width: 450px;
+    height: 331px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+.heading {
+    font-size: 52px;
+}
+
+#sim-p {
+    font-size: 16px;
+}
+
+#orenge{
+    color: orange;
+}
+
+#enroll{
+    height: 50px;
+    width: 190px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+#blue {
+    color: skyblue;
+}
+
+#hero-kid {
+    height: 575px;
 }

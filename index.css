@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+/* adding font family */
+
+body {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+
 /* for nav */
 
 .nav{
@@ -74,7 +84,7 @@
 }
 
 .heading {
-    font-size: 52px;
+    font-size: 45px;
 }
 
 #sim-p {
